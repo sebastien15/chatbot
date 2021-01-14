@@ -1,0 +1,74 @@
+.botobiWebchatabsolute{position:fixed;}
+.botobiWebchatfixed {
+    position: fixed;
+}
+.botobiWebchatrelative{position:relative;}
+.botobiWebchatmin-w-full{min-width: 100%;}
+.botobiWebchatmin-h-full{min-height: 96%;}
+.botobiWebchattop-0{top:0!important}
+.botobiWebchatright-0{right:0!important}
+.botobiWebchatbottom-0{bottom:0!important}
+.botobiWebchatbotobiWebchatleft-0{left:0!important}
+.botobiWebchattop-auto{top:auto}
+.botobiWebchatright-auto{right:auto}
+.botobiWebchatbottom-auto{bottom:auto}
+.botobiWebchatbotobiWebchatleft-auto{left:auto}
+.botobiWebchatpointer-events-none{pointer-events:none}
+.botobiWebchatz-20{z-index:20}
+.botobiWebchatw-10\/12 {width: 83.333333%}
+.botobiWebchatsm\:w-8\/12{width:66.666667%}
+.botobiWebchatmd\:w-6\/12{width:50%}
+.botobiWebchatshadow-2xl{box-shadow:0 25px 50px -12px rgba(0,0,0,.25)}
+.botobiWebchathidden{display: none}
+.botobiWebchatpointer-events-auto{pointer-events:auto}
+.botobiWebchatrounded-t-lg{border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem;}
+.botobiWebchatrounded-r-lg{border-top-right-radius: 0.5rem;border-bottom-right-radius: 0.5rem;}
+.botobiWebchatrounded-full{border-radius: 9999px;}
+.botobiWebchatbg-indigo-900{--tw-bg-opacity: 1;background-color: rgba(49, 46, 129, var(--tw-bg-opacity));}
+.botobiWebchatflex {
+    display: flex;
+    -webkit-box-sizing: unset !important;
+    box-sizing: unset !important;
+}
+.botobiWebchatflex-col{flex-direction: column;}
+.botobiWebchatjustify-between{justify-content: space-between;}
+.botobiWebchatp-2{padding: 0.5rem;}
+.botobiWebchatpt-3{padding-top: 0.75rem;}
+.botobiWebchath-10{height: 2.5rem;}
+.botobiWebchatw-10{width: 2.5rem;}
+.botobiWebchatmr-2{margin-right: 0.5rem;}
+.botobiWebchatcursor-pointer{cursor: pointer;}
+.botobiWebchatoverflow-x-hidden{overflow-x: hidden;}
+.botobiWebchatoverflow-y-visible{overflow-y: visible;}
+.botobiWebchatbg-transparent{background-color: transparent;}
+.botobiWebchat-ml-10{margin-left: -2.5rem;}
+.botobiWebchath-16{height: 4rem;}
+.botobiWebchatjustify-center{justify-content: center;}
+.botobiWebchatitems-end{align-items: flex-end;}
+.botobiWebchatw-20{width: 5rem;}
+.botobiWebchattext-white{--tw-text-opacity: 1;color: rgba(255, 255, 255, var(--tw-text-opacity));}
+.botobiWebchattext-xl{font-size: 1.25rem;line-height: 1.75rem;}
+.showLeft {
+    text-shadow: none !important;
+    color: #fff !important;
+    padding: 10px !important;
+    margin: 0 0 0 0 !important;
+}
+
+.icons li {
+    background: none repeat scroll 0 0 #fff;
+    height: 7px;
+    width: 7px;
+    line-height: 0;
+    list-style: none outside none;
+    margin-right: 15px;
+    margin-top: 3px;
+    vertical-align: top;
+    border-radius: 50%;
+    pointer-events: none;
+}
+   
+
+
+
+          

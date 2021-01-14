@@ -1,0 +1,170 @@
+body {
+    font-family: 'Open Sans', sans-serif;    
+   /* box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+  }
+html{
+    font-size:16px !important;
+}
+.botobiWebchatchatOpener {
+    right: 1% !important;
+    bottom: 1% !important;
+    
+}
+
+.botobiWebchatchatImage {
+    max-height: 64px !important;
+    position: absolute !important;
+    border-radius: 50% !important;
+    max-width: 64px !important;
+}
+.botobiWebchatBg {
+    position: absolute !important;
+    max-width: 64px !important;
+}
+  /* drop down starts */
+  
+  /*.dropdown{
+    opacity: 0;
+    height: 0px;
+    pointer-events: none;
+  }*/
+  .botobiWebchatdropItem{
+    opacity: 0;
+    pointer-events: none;
+  }
+
+/*to override one give code css*/
+ .botobiWebchattop-0 {
+    bottom: 0px;
+   
+}
+.botobiWebchatpointer-events-none {
+    z-index: 99999999 !important;
+}
+/* drop down ends */
+.botobiWebchatactive {
+    background-color: rgba(51,102,255);
+}
+
+
+  /* chatbox */
+  .botobiWebchatchatBox{
+    bottom:30px;
+    right:2%;
+    /*background-image: url("artwork.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80% 30%;*/
+  }
+  .botobiWebchatchatDropdown{
+    top: 10%; 
+    left:5%; 
+    width:200px;
+    z-index:10000;
+  }
+
+#webchat .markdown webchat--css-sefzs-1ie6hia ul,ol {
+    list-style-position: inside;
+}
+
+#webchat ul {
+    list-style-position: inside;
+}
+/*#webchat div {
+    background: transparent;
+}*/
+#webchat .main .webchat__icon-button {
+    width: 30px;
+}
+
+/*#webchat .webchat__basic-transcript__filler {
+    background-image: url("img/loader.png");
+}*/
+#webchat .main {
+    /*margin-bottom: 5px;*/
+    min-height:50px;
+}
+/*.webchat--css-btept-1cf2ib5.webchat__adaptive-card-renderer*/
+
+
+.webchat__suggested-action__button, .ac-pushButton {
+    border-radius: 90px !important;
+    /*background-image: url("img/buttons_PNG21.png") !important;*/
+    background: #223067 !important;
+    color: white !important;
+}
+/*#webchat button {
+    border-radius: 90px;
+    background: #223067;
+}*/
+.botobiWebchatchatBox main {
+    /*max-height: 60vh;*/
+    height: 60vh;
+}
+  .chatBox footer{
+    bottom: 0%;
+  }
+
+.react-film__flipper__body {
+    font-size: 26px !important;
+    height: 60px !important;
+    width: 60px !important;
+    line-height: 60px !important;
+    font-weight: 600 !important;
+}
+.botobiWebchatchatBox #webchat {
+    background-image: url("artwork.png");
+    background-repeat: no-repeat;
+    background-position: center bottom 5px;
+    background-size: 80% 30%;
+}
+
+  /* animation styles */
+
+
+ /* language dropdown animation */
+
+@keyframes botobiWebchatdropBox{
+    0%{
+        height: 0px;
+        pointer-events: none;
+        }
+    90%{
+        height: 140px;
+        opacity: 1;
+        }
+    100%{
+        height: 130px;
+        opacity: 1;
+        pointer-events: all;
+        }
+}
+
+.botobiWebchatdropdownA{
+    animation: dropBox 1s 1 0.005s ease-in-out forwards;
+}
+
+@keyframes botobiWebchatdropItemAnimation{
+    0%{
+        transform: translateY(-5px);
+        opacity: 0;
+        pointer-events: none;
+        }
+    91%{
+        transform: translateY(2px);
+        opacity: 1;
+        pointer-events: all;
+        }
+    100%{
+        opacity: 1;
+        pointer-events: all;
+        }
+}
+
+.botobiWebchatdropItemA{
+    animation: dropItemAnimation 1s 1 1s ease-in forwards;
+}
+
+/*  language dropdown animation ends */

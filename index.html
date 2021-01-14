@@ -1,0 +1,90 @@
+<link rel="stylesheet" href="tailwind.css" />
+<link rel="stylesheet" href="chatstyles.css" />
+<!--bot code-->
+<div onload="Loader()"
+	class="botobiWebchatfixed botobiWebchatmin-h-full botobiWebchatmin-w-full botobiWebchattop-0 botobiWebchatbottom-0 botobiWebchatpointer-events-none"
+	style="z-index: 100000;">
+	<div class="botobiWebchatabsolute botobiWebchatz-20 botobiWebchatw-10/12 botobiWebchatsm:w-8/12 botobiWebchatmd:w-6/12 botobiWebchatchatBox botobiWebchatshadow-2xl botobiWebchathidden botobiWebchatpointer-events-auto botobiWebchatrounded-t-lg"
+		style="background-color:white">
+		<header
+			class=" botobiWebchatbg-indigo-900 botobiWebchatrounded-t-lg botobiWebchatflex botobiWebchatjustify-between botobiWebchatp-2">
+			<div class="botobiWebchatflex">
+				<div onclick="chatFull()">
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/icons/crosses.png" alt=""
+						class="botobiWebchath-10 botobiWebchatW-10 mr-2">
+				</div>
+				<a href="https://botobi.com/" target="_blank">
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/smalllogo.png" alt=""
+						class="botobiWebchath-10 botobiWebchatw-10 botobiWebchatmr-2">
+				</a>
+				<div class="botobiWebchatcursor-pointer divlanguage" data-value="en-US">
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/eng.png" alt=""
+						class="botobiWebchath-10 botobiWebchatw-10 botobiWebchatmr-2">
+				</div>
+				<div class="botobiWebchatcursor-pointer divlanguage" data-value="es-ES">
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/span.png" alt=""
+						class="botobiWebchath-10 botobiWebchatw-10 botobiWebchatmr-2">
+				</div>
+				<!--<div class="cursor-pointer">
+						<img src="img/germ.png" alt="" class="h-6 w-6 mr-2">
+					</div>-->
+			</div>
+			<div class=" botobiWebchatcursor-pointer" id="botobiWebchatchatOpenerchatCloser">
+				<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/icons/close.png" alt="close"
+					class="botobiWebchath-10 botobiWebchatw-10">
+			</div>
+		</header>
+		<main
+			class="botobiWebchatoverflow-x-hidden botobiWebchatoverflow-y-visible botobiWebchatflex botobiWebchatflex-col botobiWebchatbg-transparent botobiWebchatmin-h-full"
+			style="background-color:white">
+			<div id="loader"> <img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/loading.gif"
+					alt="Loading" /></div>
+			<div id="webchat" style="display:none;height:100%;" class="botobiWebchatmin-w-full" data-value="botobi"
+				data-id="7RtZrXFHC0W5BrD-QHn4yw">
+			</div>
+		</main>
+	</div>
+	<div class="botobiWebchatabsolute botobiWebchatbottom-0 botobiWebchatcursor-pointer botobiWebchatchatOpener botobiWebchathidden botobiWebchatpointer-events-auto"
+		style="margin-right:75px">
+		<!--Z-10-->
+		<div class="botobiWebchatflex botobiWebchatrelative">
+			<div class="botobiWebchatabsolute  botobiWebchat-ml-10">
+				<!--Z-10-->
+				<div id="botobiWebchatidIncomingMsg" class="botobiWebchatrelative"
+					style=" margin-top:-26px; margin-left:25px;display:none;z-index:20;width:25px;height:25px;">
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/comment.png" alt="message"
+						style="z-index:1000;width:25px;height:25px;" />
+				</div>
+				<div class="botobiWebchatrelative">
+					<img src="https://inmobotimagerepository.blob.core.windows.net/inmoimages/botobi/avatarface.jpg"
+						alt="" class="botobiWebchath-16 botobiWebchatchatImage" />
+					<img src="https://www.chatbotinmobiliario.es/botobiresurcefiles/img/openerbg.png" alt=""
+						class="botobiWebchath-16 botobiWebchatabsolute botobiWebchattop-0 botobiWebchatleft-0 botobiWebchatBg" />
+				</div>
+			</div>
+			<div class="botobiWebchatbg-indigo-900 botobiWebchatrounded-r-lg botobiWebchath-16 botobiWebchatflex botobiWebchatflex-col botobiWebchatjustify-center botobiWebchatitems-end botobiWebchatw-20 botobiWebchatpr-2 botobiWebchatpt-3"
+				style="max-height: 3.2rem!important;">
+
+				<!-- three dots -->
+				<ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div
+					class="botobiWebchattext-white botobiWebchattext-xl botobiWebchatbg-white rounded-full botobiWebchatw-2 botobiWebchath-2 -botobiWebchatmt-1">
+				</div>
+				<div
+					class="botobiWebchattext-white botobiWebchattext-xl botobiWebchatbg-white rounded-full botobiWebchatw-2 botobiWebchath-2 botobiWebchatmt-1">
+				</div>
+				<div
+					class="botobiWebchattext-white botobiWebchattext-xl botobiWebchatbg-white rounded-full botobiWebchatw-2 botobiWebchath-2 botobiWebchatmt-1">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="chat.js"></script>
+<script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+<script src="Botobiagencyjs.js"></script>
